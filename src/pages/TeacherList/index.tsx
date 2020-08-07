@@ -34,9 +34,8 @@ function TeacherList() {
         <TeacherItem />
         <TeacherItem />
       </main>
-
     </div>
-  )
+  );
 }
 
 export default TeacherList;
