@@ -9,7 +9,7 @@ function TeacherItem() {
     <article className="teacher-item">
       <header>
         <img
-          src="https://spinoff.com.br/wp-content/uploads/Vi%C3%BAva-Negra-1200x900.jpg"
+          src="https://img.buzzfeed.com/buzzfeed-static/static/2018-05/22/15/enhanced/buzzfeed-prod-web-05/enhanced-buzz-29687-1527017651-6.jpg?downsize=900:*&output-format=auto&output-quality=auto"
           alt="Viúva Negra"
         />
         <div>
