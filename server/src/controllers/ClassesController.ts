@@ -64,7 +64,6 @@ export default class ClassesControler {
       });
 
       const user_id = insertedUsersIds[0];
-
       const insertedClassesIds = await trx('classes').insert({
         subject,
         cost,
@@ -72,7 +71,6 @@ export default class ClassesControler {
       });
 
       const class_id = insertedClassesIds[0];
-
       const classSchedule = schedule.map((scheduleItem: ScheduleItem) => {
         return {
           class_id,
