@@ -6,7 +6,7 @@
 
 ## :computer: Projeto
 
-Projeto Web e Mobile desenvolvido durante o programa Next Level Week da Rocketseat. Trata-se de uma plataforma que busca conectar alunos e professores. Por meio dela professores podem fazer cadastro das matérias que lecionam, horários disponíveis, valor das aulas e seu contato. Os alunos podem pesquisar a lista de professores disponíveis entrar em contato com eles e favoritá-los.
+Projeto Web e Mobile desenvolvido durante o programa Next Level Week da Rocketseat. Trata-se de uma plataforma que busca conectar alunos e professores. Por meio dela, professores podem fazer cadastro das matérias que lecionam, horários disponíveis, valor das aulas e seu contato. Os alunos podem pesquisar a lista de professores disponíveis, entrar em contato com eles e favoritá-los.
 
 ## :wrench: Tecnologias Utilizadas:
 
