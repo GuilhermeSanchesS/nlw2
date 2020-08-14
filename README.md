@@ -1,9 +1,5 @@
 # Next Level Week 2 - RocketSeat
 
-<h1 align="center">
-    <img alt="Proffy" title="Proffy" src="./docs/logo.svg"/>
-</h1>
-
 <p align="center">
   <img alt="License" src="./docs/NLW.gif">
 </p>

@@ -16,11 +16,11 @@ function Landing() {
   const [totalConnections, setTotalConnections] = useState(0);
 
   useEffect(() => {
-    api.get('connections').then(response => {
-      const {total} = response.data;
+    api.get('connections').then((response) => {
+      const { total } = response.data;
 
       setTotalConnections(total);
-    })
+    });
   }, []);
 
   return (
@@ -55,7 +55,7 @@ function Landing() {
         </span>
       </div>
     </div>
-  )
+  );
 }
 
 export default Landing;
