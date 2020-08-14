@@ -5,12 +5,8 @@
 </h1>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+  <img alt="License" src="./docs/NLW.gif">
 </p>
-
-<br>
-
-![](./docs/NLW.gif)
 
 ## :computer: Projeto
 
@@ -18,25 +14,15 @@ Projeto Web e Mobile desenvolvido durante o programa Next Level Week da Rocketse
 
 ## :wrench: Tecnologias Utilizadas:
 
-### :arrow_right: Back-end
-
+- ReactJS
+- Typescript
+- Axios
+- React-Native
 - Node.js
 - Typescript
 - Express
 - Knex.js
 - SQLite
-
-### :arrow_right: Front-end: Web
-
-- ReactJS
-- Typescript
-- Axios
-
-### :arrow_right: Front-end: Mobile
-
-- React-Native
-- Typescript
-- Axios
 
 ## :heavy_check_mark: Pré-requisitos:
 
@@ -70,6 +56,8 @@ Projeto Web e Mobile desenvolvido durante o programa Next Level Week da Rocketse
   $ yarn start
 ```
 
+Rode a aplicação no endereço: http://localhost:3000/
+
 ## :star: Para contribuir:
 
 1. Faça o _fork_ do projeto (<https://github.com/matheusfelipeog/proffy>)
@@ -83,5 +71,3 @@ Projeto Web e Mobile desenvolvido durante o programa Next Level Week da Rocketse
 5. _Push_ (`git push origin feature/name_new_feature`)
 
 6. Crie um novo _Pull Request_
-
-Aplicação rodando no endereço: http://localhost:3000/
