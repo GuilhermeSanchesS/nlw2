@@ -1,7 +1,7 @@
 import React, { useState, FormEvent } from 'react';
 
 import PageHeader from '../../components/PageHeader';
-import TeacherItem, {Teacher} from '../../components/TeacherItem';
+import TeacherItem, { Teacher } from '../../components/TeacherItem';
 import Input from '../../components/Input';
 import Select from '../../components/Select';
 
@@ -24,7 +24,7 @@ function TeacherList() {
         subject,
         week_day,
         time,
-      }
+      },
     });
 
     setTeachers(response.data);
@@ -38,7 +38,9 @@ function TeacherList() {
             name="subject"
             label="Matéria"
             value={subject}
-            onChange={e => {setSubject(e.target.value)}}
+            onChange={(e) => {
+              setSubject(e.target.value);
+            }}
             options={[
               { value: 'Desenho', label: 'Desenho' },
               { value: 'Línguas', label: 'Línguas' },
@@ -49,13 +51,17 @@ function TeacherList() {
               { value: 'Geografia', label: 'Geografia' },
               { value: 'História', label: 'História' },
               { value: 'Biologia', label: 'Biologia' },
+              { value: 'Matemática', label: 'Matemática' },
+              { value: 'Português', label: 'Português' },
             ]}
           />
           <Select
             name="week_day"
             label="Dia da semana"
             value={week_day}
-            onChange={e => { setWeekDay(e.target.value)}}
+            onChange={(e) => {
+              setWeekDay(e.target.value);
+            }}
             options={[
               { value: '0', label: 'Domingo' },
               { value: '1', label: 'Segunda-feira' },
@@ -72,7 +78,8 @@ function TeacherList() {
             label="Hora"
             value={time}
             onChange={(e) => {
-              setTime(e.target.value) }}
+              setTime(e.target.value);
+            }}
           />
 
           <button type="submit">Buscar</button>
