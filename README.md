@@ -52,7 +52,7 @@ Projeto Web e Mobile desenvolvido durante o programa Next Level Week da Rocketse
   $ yarn start
 ```
 
-Rode a aplicação no endereço: http://localhost:3000/
+Endereço da aplicação: http://localhost:3000/
 
 ## :star: Para contribuir:
 
